@@ -1,0 +1,569 @@
+* {
+   margin:0;
+   padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic');
+
+html {
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clr {
+clear: both;
+}
+
+/*Cтили заголовков*/
+h1{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 300;
+	margin-top: 180px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: 200;
+	text-align: center;
+	color:#333;
+}
+
+#podz{
+	color: #fff;
+	font-size: 25px;
+	font-weight: lighter;
+	margin: 20px 0px 80px 0px;
+	text-align: center;
+}
+
+.under-h2 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #7a7a7a;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+/*Cтили заголовков*/
+
+/*1 блок*/
+/*Колонтитул*/
+#header {
+	background: url(../images/header/bg1.jpg) no-repeat center top/cover;
+	height: 700px;
+	margin-bottom: 100px;
+}
+
+.top-col {
+	height: 80px;
+	float: left;
+	width: 50%;
+}
+
+.top-col:nth-child(2) {
+	height: 80px;
+	float: left;
+	width: 50%;
+	text-align: right;
+	margin: 17px 0 0 0px;
+}
+
+#col-contacts {
+	color: #fff;
+	font-weight: lighter;
+	text-align: right;
+
+}
+
+#logo {
+	margin-top: 10px;
+	float: left;
+	padding-right: 14px;
+}
+
+#description {
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	font-weight: lighter;
+	border-left: 1px solid #fff;
+	padding-left: 14px;
+	margin-top: 17px;
+}
+/*Колонтитул*/
+
+/*1 блок*/
+
+/*--------------------------------------------*/
+
+/*Эскиз блок*/
+.bg-eskiz {
+	width: 987px;
+	height: 454px;
+	background: url(../images/eskiz/frane.png) no-repeat center top/cover;
+	margin: 0 auto;
+}
+.underline {
+	width: 165px;
+	height: 2px;
+	background-color: #e8dc71;
+	margin: 0 auto;
+}
+
+.bg-eskiz p {
+	width: 830px;
+	font-size: 18px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+#form-eskiz {
+	text-align: center;
+	margin: 30px 0px 0px 0px;
+}
+
+.eskiz-putPhone{
+	width: 400px;
+	height: 55px;
+	border-radius: 30px;
+	border: none;
+	font-size: 20px;
+	padding-left: 30px;
+	color: #777777;
+	margin: 0px 12px 30px 0px;
+	font-weight: 300;
+}
+
+.eskiz-btn{
+	width: 400px;
+	height: 55px;
+	border-radius: 30px;
+	border: none;
+	background: url(../images/eskiz/button.png) no-repeat center top/cover;
+	color: #2f2f2f;
+	font-size: 20px;
+	font-weight: 200;
+	margin: 0px 0px 30px 12px;
+}
+
+.eskiz-btn:hover {
+	background: url(../images/eskiz/buttonhover.png) no-repeat center top/cover;
+}
+
+.eskiz-overview {
+	color: #fff;
+	background: transparent;
+}
+/*Эскиз блок*/
+
+/*Первая галлерея*/
+a {
+	border: none;
+	text-decoration: none;
+}
+
+.gallery {
+	width: 1020px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+#gallery1 {
+	margin-top: 100px;
+}
+
+.top-align {
+	vertical-align: top;
+}
+
+.colomn1  {
+	float: left;
+	text-align: right;
+}
+
+.colomn2  {
+	float: left;
+}
+
+.colomn3  {
+	text-align: left;
+}
+
+.colomn4  {
+    float: left;
+	text-align: left;
+}
+
+.colomn5  {
+	text-align: left;
+	margin-left: 20px;
+	height: 820px;		
+	overflow: hidden;
+	float: left;
+	width: 490px;
+}
+
+.colomn1 img {
+	margin-bottom: 20px;
+}
+
+.colomn2 img {
+	margin: 0px 0px 20px 20px;
+}
+
+.colomn3 img {
+	margin: 0px 0px 20px 20px;
+}
+
+.colomn4 img {
+	margin: 0px 0px 20px 0px;
+}
+
+.colomn6 {
+	float: left;
+}
+/*gallery1*/
+#img1{width: 232px;height: 145px;}
+#img2{width: 232px;height: 232px;}
+#img3{width: 232px;height: 139px;}
+#img4{width: 232px;height: 218px;}
+
+#img5{width: 236px;height: 227px;}
+#img6{width: 236px;height: 155px;}
+#img7{width: 236px;height: 177px;}
+#img8{width: 236px;height: 175px;}
+
+#img9{width: 492px;height: 341px;}
+#img10{width: 232px;height: 145px;}
+#img11{width: 232px;height: 145px;}
+#img12{width: 232px;height: 271px;}
+#img13{width: 232px;height: 271px;}
+
+#img14{width: 488px;height: 574px;}
+#img15{width: 232px;height: 224px;}
+#img16{width: 232px;height: 224px;}
+
+#img17{width: 231px;height: 421px;}
+#img18{width: 231px;height: 334px;}
+#img19{width: 231px;height: 132px;}
+#img20{width: 231px;height: 219px;}
+#img21{width: 231px;height: 224px;}
+#img22{width: 231px;height: 224px;}
+
+#img23 {float: left;}
+#img24 {float: left;}
+#img25 {float: left;}
+/*gallery1*/
+
+/*gallery2*/
+#biz-img1 {width: 206px;height: 275px;}
+#biz-img2 {width: 229px;height: 275px;}
+#biz-img3 {width: 222px;height: 275px;}
+#biz-img4 {width: 265px;height: 275px;}
+
+#biz-img5 {width: 343px;height: 257px;}
+#biz-img6 {width: 343px;height: 257px;}
+#biz-img7 {width: 261px;height: 257px;}
+/*gallery2*/
+
+/*Первая галлерея*/
+
+
+
+/*Вторая галлерея*/
+.biz-gallery {
+	margin-top: 60px;
+}
+
+/*Вторая галлерея*/
+
+
+/*Каталог*/
+.katalog{
+	background-color: #e8e8e8;
+	width: 100%;
+	height: px;
+	margin-top: 100px;
+}
+
+.katalog-form {
+	width: 380px;
+	height: 60px;
+	padding-left: 20px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	font-color: #929292;
+	font-weight: lighter;
+	
+}
+
+.katalog-form{
+	margin-bottom: 20px;
+
+}
+
+.form-text{
+	text-align: center;
+	margin-left: 45px;
+}
+
+#katalog-img {
+	float: left;
+	margin: 60px 0px 0px 100px;
+	width: 504px;
+	height:374px;
+}
+/*Каталог*/
+
+
+/*О компании*/
+.about-company {
+	background: url(../images/about/background-new.jpg) no-repeat center top/cover;
+	height: 700px;
+}
+
+#about-h2{
+	color: #fff;
+	padding-top: 60px;
+	text-align: center;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.box2{
+	float:left;
+	width: 50%;
+	text-align: center;
+}
+
+#video{
+	margin-top: 23px;
+	width:441px;
+	height:275px;
+}
+
+.bullet {
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.bullet-text {
+	font-size: 18px;
+	font-weight: lighter;
+	float:left;
+	color: #fff;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.container-video {
+	background: url(../images/about/macbook.png) no-repeat center top/cover;
+	width: 100%;
+	height: 416px;
+	margin-top: 60px;
+}
+
+#box-bullet {
+	padding-left: 100px;
+}
+/*О компании*/
+
+
+/*Купоны на скидку*/
+.cupon {
+	background: url(../images/cupon/background5.jpg) no-repeat center top/cover;
+	height: 700px;
+	overflow: hidden;
+}
+/*Купоны на скидку*/
+
+/*Директор*/
+.director {
+
+}
+
+.text-director {
+	color:#2B2B2B;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 0px;
+}
+
+#text-director2 {
+	width: 715px;
+	font-weight: 300;
+	margin-top: 30px;
+	color:#2B2B2B;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 0px;
+}
+/*Директор*/
+
+/*footer*/
+.footer-text {
+	color: white;
+	font-weight: lighter;
+	margin-top: 25px;
+}
+.footer-h {
+	font-weight: 500;
+}
+
+.p-footer {
+	margin-top: 10px;
+}
+
+.align-footer {
+	width: 900px;
+	margin: 0 auto;
+}
+/*footer*/
+
+/*1024 version*/
+@media screen and (max-width:1190px), only screen and (max-device-width:1190px) {
+html {
+	overflow-x:hidden;
+}
+
+.layout {
+	width: 900px;
+}
+
+h1{
+	margin-top: 140px;
+}
+/*eskiz*/
+.bg-eskiz {
+	width: 890px;
+	height: 454px;
+	background: url(../images/eskiz/frane1024.png) no-repeat center top/cover;
+}
+/*eskiz*/
+
+/*gallery1*/
+
+.colomn4 { height: auto;}
+
+.colomn5  {
+	width: 440px;
+	height: auto;
+	margin-left: 10px;
+}
+
+#img1{width: 208px;height: 130px;}
+#img2{width: 208px;height: 208px;}
+#img3{width: 208px;height: 125px;}
+#img4{width: 208px;height: 193px;}
+
+#img5{width: 212px;height: 204px;}
+#img6{width: 212px;height: 139px;}
+#img7{width: 212px;height: 158px;}
+#img8{width: 212px;height: 155px;}
+
+#img9{width: 434px;height: 306px;}
+#img10{width: 208px;height: 130px;}
+#img11{width: 208px;height: 130px;}
+#img12{width: 208px;height: 240px;}
+#img13{width: 208px;height: 240px;}
+
+#img14{width: 438px;height: 515px;}
+#img15{width: 209px;height: 200px;}
+#img16{width: 209px;height: 200px;}
+
+#img17{width: 208px;height: 378px;}
+#img18{width: 208px;height: 300px;}
+#img19{width: 208px;height: 118px;}
+#img20{width: 208px;height: 196px;}
+#img21{width: 208px;height: 200px;}
+#img22{width: 208px;height: 200px;}
+
+#img23 {width: 344px; height: 243px;}
+#img24 {width: 300px; height: 243px;}
+#img25 {width: 200px; height: 243px; margin-left: 4px;}
+/*gallery1*/
+
+/*gallery2*/
+#biz-img1 {width: 185px;height: 249px;}
+#biz-img2 {width: 206px;height: 249px;}
+#biz-img3 {width: 200px;height: 249px;}
+#biz-img4 {width: 235px;height: 249px;}
+
+#biz-img5 {width: 308px;height: 231px;}
+#biz-img6 {width: 308px;height: 231px;}
+#biz-img7 {width: 235px;height: 231px;}
+/*gallery2*/
+
+/*katalog*/
+#katalog-img {
+	width: 435px;
+	height:323px;
+	margin: 60px 0 0 0;
+}
+.form-text{
+	text-align: center;
+	margin-left: 5px;
+}
+/*katalog*/
+
+/*about*/
+#video{
+	margin-top: 23px;
+	width: 370px;
+	height: 230px;
+}
+
+.container-video {
+	background: url(../images/about/macbook.png) no-repeat center top/cover;
+	width: 100%;
+	height: 350px;
+	margin-top: 60px;
+}
+/*about*/
+
+/*Директор*/
+#text-director2 {
+	width: 580px;
+}
+/*Директор*/
+
+}
+/*1024 version*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

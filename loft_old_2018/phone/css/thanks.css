@@ -1,0 +1,81 @@
+* {
+   margin:0;
+   padding:0;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic');
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+
+.layout {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.clr {
+clear: both;
+}
+
+header {
+	background: url(../../images/thanks-mob.jpg) no-repeat center top/cover;
+	height: 1300px;
+}
+
+.position-text {
+	color:#fff;
+	font-weight:300;
+	text-align:center;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+h1 {
+	color:#fff;
+	font-size: 36px;
+	font-weight: lighter;
+	text-align: center;
+	margin: 220px 0 0 0;
+}
+
+.podz {
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn1 {
+	padding:15px 50px;
+	margin-right:10px;
+}
+
+.btn2{
+	padding:15px 23px;
+	margin-left:10px;
+}
+
+.btn {
+	border: 2px solid #61c476;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	border-radius: 30px;
+	background-color:#61c476;
+}
+
+.buttons {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
+}
