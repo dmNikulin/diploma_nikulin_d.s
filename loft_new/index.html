@@ -10,15 +10,24 @@
 
     <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="css/remodal.css">
-    <link rel="stylesheet" href="css/remodal-default-theme.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic" rel="stylesheet">
 
     <title>Производство мебели в стиле лофт</title>
 </head>
 
 <body>
+    <section class="modal-window hidden">
+        <div class="modal-window__container">
+            <button class="modal-window__close"></button>
+            <form class="modal-window__form" action="php/skidka.php" method="POST">
+                <h2 class="modal-window__title">Забронирутей себе скидку 30%</h2>
+                <p class="modal-window__text">Оставьте свой номер телефона в графе ниже,<br> чтобы мы смогли зарезервировать за вами скидку<br>в 30%. Скидка привязана к номеру телефона,<br> поэтому вы всегда сможете ей воспользоваться.</p>
+                <input name="phone" type="tel" class="modal-window__input mask-phone" placeholder="Введите номер телефона" required>
+                <input type="submit" name="submit" class="modal-window__btn" value="Забронировать скидку">
+                <input type="hidden" name="formData" value="Заявка с сайта">
+            </form>
+        </div>
+    </section>
     <main class="main">
         <div class="content">
             <!--Верхний колонтитул-->
@@ -308,6 +317,7 @@
                 <div>
                 </div>
     </footer>
+    <script src="js/modalWindow.js"></script>
 </body>
 
 </html>

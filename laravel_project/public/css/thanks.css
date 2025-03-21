@@ -1,0 +1,145 @@
+* {
+   margin:0;
+   padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic');
+
+html {
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clr {
+clear: both;
+}
+
+header {
+	background: url(../images/thanks.jpg) no-repeat center top/cover;
+	height: 900px;
+}
+
+#overlay {
+	background-color: #000;
+	opacity: 0.5;
+	height: 900px;
+}
+.top-col {
+	height: 80px;
+	float: left;
+	width: 49%;
+
+}
+
+.top-col:nth-child(2) {
+	height: 80px;
+	float: left;
+	width: 50%;
+	text-align: right;
+	margin: 17px 0 0 8px;
+}
+
+#col-contacts {
+	color: #fff;
+	font-weight: lighter;
+	text-align: right;
+	
+}
+
+#logo {
+	margin-top: 10px;
+	float: left;
+	padding-right: 14px;
+}
+
+#description {
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	font-weight: lighter;
+	border-left: 1px solid #fff;
+	padding-left: 14px;
+	margin-top: 17px;
+}
+
+h1 {
+	color:#fff;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 140px;
+	font-weight: 300;
+}
+
+.podz {
+	color:#fff;
+	font-size: 28px;
+	font-weight: 300;
+	width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn1 {
+	padding:15px 50px;
+	margin-right:10px;
+}
+
+.btn2{
+	padding:15px 23px;
+	margin-left:10px;
+}
+
+.btn {
+	border: 2px solid #61c476;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	border-radius: 30px;
+	background-color: transparent;
+}
+
+.btn:hover{
+	background-color:#61c476;
+}
+
+.buttons {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
