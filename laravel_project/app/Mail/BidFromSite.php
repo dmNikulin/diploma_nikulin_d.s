@@ -16,10 +16,10 @@ class BidFromSite extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
-    {
-        //
-    }
+    
+
+    public function __construct(public $formName, public $clientName, public $clientPhone)
+    {}
 
     /**
      * Get the message envelope.
@@ -38,6 +38,7 @@ class BidFromSite extends Mailable
     {
         return new Content(
             view: 'letteronmail',
+            // text: $this->formName,
         );
     }
 
