@@ -14,6 +14,10 @@ Route::get('/thanks', function () {
     return view('thanks');
 })->name('thanks');
 
+Route::get('/example', function () {
+    return view('example');
+});
+
 // Route::get('/test-telegram', function () {
 //     Telegram::sendMessage([
 //     'chat_id' => env('TELEGRAM_CHANNEL_ID'),
