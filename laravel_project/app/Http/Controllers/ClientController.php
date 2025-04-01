@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Client;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Http;
 
 use Illuminate\Support\Facades\Mail;
 use App\Mail\BidFromSite;
@@ -12,6 +14,7 @@ use App\Mail\BidFromSite;
 class ClientController extends Controller
 {
     public function index() {
+
         return view('index');
     }
 

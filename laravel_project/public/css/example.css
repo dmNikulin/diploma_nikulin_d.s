@@ -47,12 +47,7 @@ h2 {
     flex-direction: column;
 }
 
-.productCard__card1,
-.productCard__card2,
-.productCard__card3,
-.productCard__card4,
-.productCard__card5,
-.productCard__card6 {
+.productCard__img {
     width: 360px;
     height: 420px;
 }
